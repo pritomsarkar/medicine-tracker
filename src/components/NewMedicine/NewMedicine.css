@@ -1,0 +1,39 @@
+.new-medicine {
+  background-color: rgba(250, 0, 127, 0.25);
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(23, 8, 255, 0.25);
+  font-family: "cursive";
+}
+
+.new-medicine button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #59283b;
+  background-color: #71d5a6b2;
+  color: rgb(24 11 93);
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.new-medicine button:hover,
+.new-medicine button:active {
+  background-color: #159dbe;
+  border-color: #d1ec90;
+}
+
+.new-medicine button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-medicine button.alternative:hover,
+.new-medicine button.alternative:active {
+  background-color: #ddb3f8;
+}
