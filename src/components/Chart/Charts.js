@@ -9,14 +9,12 @@ const Charts = (props) => {
     <div className="chart">
       <ul className="chart_ul">
         {props.dataPoints.map((dataPoint) => (
-          <div style={{ margin: "10px" }}>
-            <ChartsBar
-              key={Math.random()}
-              value={dataPoint.value}
-              maxValue={maximumQuantity}
-              label={dataPoint.label}
-            />
-          </div>
+          <ChartsBar
+            key={Math.random()}
+            value={dataPoint.value}
+            maxValue={maximumQuantity}
+            label={dataPoint.label}
+          />
         ))}
       </ul>
     </div>

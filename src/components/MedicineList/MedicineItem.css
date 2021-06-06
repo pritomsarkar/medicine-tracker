@@ -1,11 +1,13 @@
 .medicine-item {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 0.5rem;
   margin: 1rem 0;
-  width: 48rem;
-  background-color: #74a76e;
+  width: 49%;
+  background-color: #acbaab;
+  flex: inherit;
+  flex-direction: row;
 }
 
 .medicine-item__description {
